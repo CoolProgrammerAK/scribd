@@ -1,0 +1,44 @@
+.appbar{
+    height: 3.375rem;
+    background-color: #00293f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px ;
+    position: sticky;
+    z-index: 12;
+}
+.logo{
+    font-weight: 700;
+    padding: 0px 10px;
+    font-size: 22px;
+    color: #1e7b85;
+    width: 115px;
+    height: 26px;
+}
+.appbarBtn{
+
+border: 1px solid #fff;;
+padding: 10px 30px ;
+font-size: 18px;
+font-weight: 700;
+color: #fff;;
+background-color: #00293f;
+border-radius: 3px;
+}
+.appIcon{
+    color: white;
+    font-size: 28px;
+   
+}
+@media only screen and (max-width:330px){
+    .appbar{
+        min-height: 5rem;
+        background-color: #00293f;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding:0px 20px ;
+    }
+}

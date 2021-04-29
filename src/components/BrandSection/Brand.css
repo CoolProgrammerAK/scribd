@@ -1,0 +1,82 @@
+.brandContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.brandHeading{
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #00293f;
+    opacity: .75;
+    font-size: 14px;
+    font-weight: 400;
+}
+.brandImgBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.brandTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brandImg{
+    margin: 5px;
+}
+@media only screen and (max-width:850px){
+
+    .brandImgBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+     
+    }
+    .brandImg{
+        margin: 19px 0px;
+    }
+}
+
+.brandTrendingHeading{
+    font-size: 16px;
+    margin: 0 0 12px;
+}
+.brandTrendingBox{
+ display: grid;
+ grid-template-columns: 1fr 1fr ;
+ 
+}
+.brandBottom{
+    padding: 40px 24px;
+    max-width: 1190px;
+    margin: auto;
+}
+.brandLinkBox{
+    font-size: 14px;
+    padding:0px 4px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.brandLinkContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10.6rem,1fr));
+}
+.brandLinkBottom{
+    color: #57617a;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:400px){
+
+    .brandTrendingBox{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(10.6rem,1fr));
+        overflow: scroll;
+        
+       }
+      
+}

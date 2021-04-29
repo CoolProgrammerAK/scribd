@@ -1,0 +1,120 @@
+.footerContainer{
+    padding: 20px 0px;
+    background-color: #f0f2f9;
+    
+}
+.footerTop{
+    max-width: 1190px;
+    margin: auto;
+    padding: 13px 22px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(13rem,1fr));
+    
+}
+.footerBottom{
+    max-width: 1190px;
+    margin: auto;
+    padding: 13px 22px;
+}
+.footerTopHeading{
+    font-size: 1rem;
+    margin-bottom: 1em;
+    line-height: 1.3rem;
+    font-family: "Source Serif Pro",serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303140;
+    margin-top: 0;
+}
+.footerTopText{
+    font-size: .875rem;
+    line-height:1.5rem;
+    color: #303140;
+    margin-bottom: 8px;
+}
+.footerTopTextIcon{
+    font-size: .875rem;
+    line-height:1.5rem;
+    color: #303140;
+}
+.footerIconBox{
+    display: flex;
+    align-items: center;
+}
+.footerIcon{
+
+    width: 16px!important;
+    height: 16px!important;
+}
+.footerImg{
+    width: 120px;
+    height: 40px;
+    margin-right: 7px;
+}
+.footerTopBox{
+    margin: 15px 0px;
+}
+.footerList{
+    list-style: none;
+    
+    margin: 0;
+    flex: 9;
+    padding: 15px 0px;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.footerListText{
+    font-family: Source Sans Pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1.2rem;
+}
+.footerListTextB{
+    font-family: Source Sans Pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1.2rem;
+}
+.footerListTextDark{
+    font-family: Source Sans Pro,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: .75rem;
+    line-height: 1.2rem;
+}
+.footerListText:not(:last-child)::after{
+    content: "•";
+    font-family: Source Sans Pro,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75rem;
+    margin: 0 10px
+}
+.footerBottomBox{
+    padding: 15px 0px;
+}
+.footerBottomRow{
+    display: flex;
+    
+}
+.footerCopyright{
+   flex: 3;
+   display: flex;
+   align-items: center;
+  
+}
+.footerRightMargin{
+    margin-right: 10px;
+}
+@media only screen and (max-width:900px){
+
+    .footerBottomRow{
+        display: flex;
+        flex-direction: column;
+    }
+      
+}

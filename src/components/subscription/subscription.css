@@ -1,0 +1,100 @@
+.subscriptionContainer{
+    background-color: #fff;
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscriptionTop{
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    margin-bottom: 50px;
+
+}
+
+.subscriptionBottom{
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+}
+.subscriptionHeader{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000514;
+    margin: 0px 12px;
+    text-align: center;
+    padding: 12px 0px;
+    max-width: 792px;
+    
+}
+@media only screen and (max-width:700px){
+
+    .subscriptionHeader{
+        font-size: 28px;
+    }
+
+    .subscriptionContainer{
+     padding: 48px 24px;
+    }
+}
+.subscriptionIconContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.subscriptionIconBox{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subscriptionIcon{
+    font-size: 40px!important;
+    color: #1e7b85;;
+}
+.subscriptionIconText{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 16px;
+
+}
+.subscriptionBottomIconText{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+
+}
+.subscriptionBottomIcon{
+    background: url("../../assets/unnamed.png");
+    opacity: .2;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    
+}
+.subscriptionBottomText{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+     
+    
+    padding-bottom: 16px;
+    text-align: center;
+    z-index: 2;
+}
+.subscriptionBottomTextBox{
+    padding: 12px 0px;
+    max-width: 588px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
